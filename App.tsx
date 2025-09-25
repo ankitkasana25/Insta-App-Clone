@@ -4,7 +4,7 @@ function App (): React.JSX.Element {
 
   return(
 <View>
-
+<Hello></Hello>
 </View>
   );
 
