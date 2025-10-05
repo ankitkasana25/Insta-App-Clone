@@ -1,13 +1,12 @@
 import React from "react";
+import { Text, View } from "react-native";
 
-function App (): React.JSX.Element {
-
-  return(
-<View>
-<Hello></Hello>
-</View>
+const App: React.FC = () => {
+  return (
+    <View style={{flex:1}}>
+      <Text>Ankit</Text>
+    </View>
   );
+};
 
-}
-
-const styleSheet = create
+export default App;
